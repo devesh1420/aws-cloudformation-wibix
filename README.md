@@ -1,6 +1,12 @@
 # aws-cloudformation-wibix
 This proof-of-concept demonstrates how to create a read-only IAM role using AWS CloudFormation, and how to use a Python script to fetch AWS resource inventory securely without using access/secret keys.
 
+aws-cloudformation-poc-wibix/
+├── read-only-role.yaml
+├── fetch_inventory.py
+└── README.md
+
+
 ## 📂 Files
 - `read-only-role.yaml` – CloudFormation template to create a read-only IAM role.
 - `fetch_inventory.py` – Python script to fetch EC2 and S3 resource details using boto3 and the CloudFormation stack name.
